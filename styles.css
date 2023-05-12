@@ -3,12 +3,7 @@
     padding: 0;
 }
 
-.header,
-.main,
-.sidebar,
-.header>*,
-.sidebar>*,
-.main>* {
+div {
     border: red dashed thin;
 }
 
