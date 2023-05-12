@@ -24,6 +24,17 @@ div {
     grid-template-rows: 1fr 1fr;
 }
 
+.top-header-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr 2fr;
+}
+
+.header-icons {
+    width: 30px;
+    height: auto;
+    justify-self: end;
+}
 
 
 
@@ -41,8 +52,13 @@ div {
     display: grid;
     grid-template-rows: .5fr 2fr 2fr 2fr;
     gap: 40px;
-    margin: 20px;
+    padding: 20px;
+    background-color: #2094d4;
+    color: white;
+}
 
+.sidebar img {
+    filter: invert(100%)
 }
 
 #dashboardIMG {
@@ -61,6 +77,12 @@ div {
     grid-template-columns: .5fr 1fr;
     gap: 10px;
 
+}
+
+.sidebar-main-container,
+.sidebar-setting-container {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .sidebar-main-container {
