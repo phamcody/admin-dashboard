@@ -5,7 +5,7 @@
 }
 
 div {
-    border: red dashed thin;
+    
 }
 
 .container {
@@ -27,16 +27,100 @@ div {
 .top-header-container {
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr 1fr 2fr;
+    grid-template-columns: .45fr 5fr 1fr 1fr 1fr 1fr;
+}
+
+#header-search {
+    justify-self: end;
+    grid-column: 1;
+}
+
+.search {
+    height: 25px;
+    margin-left: 20px;
+    border: none;
+    background-color: #e8ecf4;
+    border-radius: 10px;
+    grid-column: 2;
+}
+
+.bell {
+    grid-column: 4;
 }
 
 .header-icons {
     width: 30px;
     height: auto;
     justify-self: end;
+
 }
 
+#header-pfp {
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+    justify-self: center;
+    grid-column: 5;
+}
 
+.name {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    justify-items: start;
+    grid-column: 6;
+}
+
+/* HEADER BOTTOM */
+
+.bottom-header-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: .5fr 4fr .75fr .75fr .75fr;
+}
+
+.bottom-pfp {
+    height: 75px;
+    margin-left: 40px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.welcome-1 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.username {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.buttons {
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #2094d4;
+    height: 40px;
+    width: 100px;
+}
+
+.b1 {
+    justify-self: end;
+}
+
+.b2 {
+    justify-self: center;
+}
+
+.b3 {
+    justify-self: start;
+}
 
 /* MAIN */
 .main {
